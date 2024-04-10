@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="navbar">
+          <div class="container">
+            <img class="logo" src="img/logo.png" alt="logo" />
+            <nav class="menu">
+              <ul class="menu__list">
+                <!--see script.js line 28-->
+              </ul>
+            </nav>
+            <button class="navbar__btn">Заказать звонок</button>
+            <nav class="menu-medium dropdown">
+              <div class="dropbtn">
+                <img class="burger" src="img/burger.png" alt="burger icon" />
+                <img class="close" src="img/close.png" alt="close icon" />
+              </div>
+              <div class="dropdown-content">
+                <ul class="menu-medium__list">
+                  <!--see script.js line 29-->
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="info">
+          <div class="container">
+            <div class="address">
+              <img src="img/map-pin.png" alt="map pin" />
+              <a href="#">Олимпийский просп., 5, стр. 1, Москва</a>
+            </div>
+            <div class="route">
+              <img src="img/arrow.png" alt="arrow" />
+              <a href="#">Проложить маршрут</a>
+            </div>
+            <div class="hours">
+              <img src="img/clock.png" alt="clock" />
+              <a href="#">9:00 - 21:00 (ежедневно)</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="container">
+          <h1 class="visually-hidden">Услуги дилерского центра</h1>
+          <p>
+            Теперь услуги дилерского центра Вы можете можете получить онлайн!
+          </p>
+          <div class="cards">
+            <div class="card">
+              <h2>Диагностика автомобиля перед покупкой</h2>
+              <p>Расскажем обо всех скрытых дефектах автомобиля с пробегом</p>
+              <button>Записаться</button>
+              <img src="img/car1.png" alt="cars" />
+            </div>
+            <div class="card">
+              <h2>Онлайн показ автомобиля по видеосвязи</h2>
+              <p>
+                Проведем онлайн-показ интересующего автомобиля в удобное для Вас
+                время
+              </p>
+              <button>Оставить заявку</button>
+              <img src="img/car2.png" alt="cars" />
+              <img src="img/car2-680.png" alt="cars" />
+            </div>
+            <div class="card">
+              <h2>Онлайн бронирование</h2>
+              <p>
+                Забронируйте понравившийся автомобиль без визита в дилерский
+                центр
+              </p>
+              <button>Забронировать</button>
+              <img src="img/phone.png" alt="cars" />
+            </div>
+            <div class="card">
+              <h2>Онлайн оценка автомобиля с пробегом</h2>
+              <p>
+                Узнайте предварительную стоимость автомобиля за 1 мин, указав
+                его параметры
+              </p>
+              <button>Оставить заявку</button>
+              <img src="img/car3-680.png" alt="cars" />
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./script.js" async></script>
+  </body>
+</html>
